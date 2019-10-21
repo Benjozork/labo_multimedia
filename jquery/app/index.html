@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <title>jQuery</title>
+    </head>
+
+    <body>
+
+        <div>
+            <span class="test">Bonjour</span>
+            <span class="test">Salut</span>
+            <span class="test">Test</span>
+            <span>123</span>
+        </div>
+
+        <script>
+            $('.test:has').css("color", "red").click(() => {
+                alert("click !");
+            });
+        </script>
+
+    </body>
+</html>

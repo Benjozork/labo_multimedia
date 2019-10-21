@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lab1/lab1.iml" filepath="$PROJECT_DIR$/lab1/lab1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab2/lab2.iml" filepath="$PROJECT_DIR$/lab2/lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jquery/jquery.iml" filepath="$PROJECT_DIR$/jquery/jquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp1-v1.0.0/lab1-v0.0.1/lab1.iml" filepath="$PROJECT_DIR$/tp1-v1.0.0/lab1-v0.0.1/lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp1-v1.0.0/lab2-v0.2.0/lab2.iml" filepath="$PROJECT_DIR$/tp1-v1.0.0/lab2-v0.2.0/lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
       <module fileurl="file://$PROJECT_DIR$/labo_multimedia.iml" filepath="$PROJECT_DIR$/labo_multimedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp1-v1.0.0/tp1.iml" filepath="$PROJECT_DIR$/tp1-v1.0.0/tp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp2/tp2.iml" filepath="$PROJECT_DIR$/tp2/tp2.iml" />
     </modules>
   </component>
 </project>
