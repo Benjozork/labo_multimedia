@@ -1,0 +1,8 @@
+.animation {
+    transition: all 170ms ease-in;
+}
+
+.animation:hover {
+    box-shadow: 0 0 40px 0 rgb(0, 0, 0);
+    transform: translateY(-7px);
+}
