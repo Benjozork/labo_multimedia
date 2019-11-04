@@ -20,15 +20,10 @@ function main() {
         baliseFeuilleModele
             .setAttribute('href', lienModeleCourrant.replace(STYLES[styleCourrant === 1 ? 0 : 1], STYLES[styleCourrant]));
 
-        /*
-        // Enlever feuille custom sur modele11
-        document.querySelector('#feuille-custom')
-            .setAttribute('href', styleCourrant === 1 ? 'css/custom.css' : '');
+        let boutonChangement = document.querySelector('#link-style-switch');
+        boutonChangement
+            .innerHTML = boutonChangement.innerHTML.replace(styleCourrant === 1 ? 'modele11' : 'modele08', styleCourrant === 1 ? 'modele08' : 'modele11');
 
-        // Enlever id custom sur modele11
-        document.querySelector('.navigation-alternative')
-            .setAttribute('id',  styleCourrant === 1 ? 'navigation-custom' : 'navigation');
-         */
     });
 }
 
